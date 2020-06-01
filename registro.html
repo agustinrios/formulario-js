@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/estilos.css">
+		<script src="js/validar.js"></script>
+	</head>
+	<body>
+		<div class="container-fluid hero">
+		  <h1>Formulario de registro</h1>
+		  <form action="registrar.php" method="post" class="" onsubmit="return validar();">
+		 	   <h2>CREA UNA CUENTA</h2>
+		 	   <div class="">
+		 		  <input type="text" id="nombre" name="nombre" placeholder="nombre" class="" >
+		 		  <input type="text" id="apellido" name="apellido" placeholder="apellido" class="" >
+		 		  <input type="email" id="correo" name="correo" placeholder="correo" class="" >
+		 		  <input type="text" id="telefono" name="telefono" placeholder="telefono" class="" >
+		 		  <input type="text" id="usuario" name="usuario" placeholder="usuario" class="" >
+		 		  <input type="password" id="contraseña" name="contraseña" placeholder="contraseña" class="" >
+		 		  <input type="submit" id="boton" name="Registrar" class="boton">
+		 		  <p class="">¿Ya tienes una cuenta? <a href="#">Ingresa aqui</a></p>
+		 	   </div>
+		  </form>
+	  </div>
+      <footer class="text-muted">
+           <div class="footer-copyright text-center py-3" class="container">
+             © 2019 Copyright:
+             <a href="mailto:agusrios_16@hotmail.com"> Agustin Rios</a>
+           </div>
+      </footer>
+	  <script src="js/jquery-3.4.1.min.js" ></script>
+      <script src="js/popper.min.js" ></script>
+      <script src="js/bootstrap.min.js" ></script>
+	</body>
+</html>

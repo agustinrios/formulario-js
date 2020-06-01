@@ -1,0 +1,86 @@
+html {
+    box-sizing: border-box;
+    min-height: 100%;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family:  'Open Sans', sans-serif;
+    background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
+    min-height: 100%;
+}
+
+div.hero{
+    background-image: url(../img/fondo.jpg);
+    height: 100%;
+    background-position: top center;
+    background-size: cover;
+    padding-bottom: 50px;
+}
+
+h1{
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 20px;
+	font-weight: bold;
+}
+
+h2{
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 25px;
+}
+
+p{
+   padding-top: 5px;	
+}
+
+form{
+margin:auto;
+max-width: 50%;
+background-color: #fff;
+padding: 50px;
+box-shadow: 5px 5px 5px grey;
+border-radius: 8px;
+box-sizing: border-box;
+}
+
+input, textarea{
+font-size: 15px;
+color:#010000;
+width: 100%;
+border: none;
+border: 2px solid #0a436f;
+outline: none;
+padding: 15px;
+margin-top: 15px;
+border-radius: 8px;
+}
+
+#boton{
+ text-transform: uppercase;
+ color:#000;
+ font-size: 15px;
+--webkit-transition: all .3s ease;
+-moz-transition: all .3s ease;
+-o-transition: all .3s ease;
+transition: all .3s ease;
+}
+
+#boton:hover{
+cursor: pointer;
+background: #03192b;
+}
+
+footer{
+	padding: 1.8em 0;
+	color: #FFFFFF;
+	background-color: #171815;
+	font-size: 0.75em;
+	position: relative;
+	bottom: 0;
+	text-align: center;
+	width: 100%;
+}
